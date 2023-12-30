@@ -1,0 +1,202 @@
+body {
+    background-color: #FFC1EE;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #FC58D8;
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#hamburger_nenu {
+    font-size: 80px;
+    z-index: 2;
+    margin-left: -93%;
+    margin-top: 18px;
+}
+
+.logo {
+    margin-top: -130px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20%;
+    grid-template-columns: 30% 10% 10% 20% 30%;
+    /* background-image: url(assets/Page_1/How\ your\ body\ works!\ \(Presentation\ \(169\)\)\ \(4\)\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.background_img {
+    width: 100%;
+    grid-area: 1/1/3/6;
+    z-index: -1;
+}
+
+#page_1_heading {
+    font-size: 66px;
+    font-family: 'Jost';
+    width: fit-content;
+    box-shadow: 5px 10px 10px grey;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.center {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#volume_button_background_1 {
+    z-index: 1;
+    grid-area: 1/3/1/3;
+    position: relative;
+    margin-top: 2px;
+    margin-left: 30px;
+}
+
+#volume_button_1 {
+    z-index: 2;
+    grid-area: 1/3/1/3;
+    position: relative;
+    margin-top: 8px;
+    margin-left: 45px;
+}
+
+#prostethic_girl {
+    z-index: 1;
+    grid-area: 2/1/2/1;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#prostethic_guy {
+    z-index: 1;
+    grid-area: 2/2/2/2;
+    position: relative;
+    margin-top: 60px;
+}
+
+#girl_leg_braces {
+    z-index: 1;
+    grid-area: 2/3/2/3;
+    position: relative;
+    margin-top: 52px;
+    margin-left: 30px;
+
+}
+
+#wheelchair_braided {
+    z-index: 1;
+    grid-area: 3/4/3/4;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 140px;
+}
+
+#wheelchair_not_braided {
+    z-index: 2;
+    grid-area: 3/5/3/5;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 150px;
+}
+
+#blind_boy {
+    z-index: 1;
+    grid-area: 2/5/2/5;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+#page_2_heading {
+    font-size: 66px;
+    font-family: 'Jost';
+    margin-top: -300px;
+    margin-left: 70px;
+}
+
+#volume_button_background_2{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 1px;
+}
+
+#volume_button_2{
+    position: relative;
+    margin-left: 285px;
+    margin-top: 10px;
+    z-index: 3;
+}
+
+#ellipse_background{
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+}
+
+#wheelchair_girl_2{
+    width: 35%;
+    position: absolute;
+    margin-top: -180px;
+    margin-left: -550px;
+    z-index: 1;
+}
+
+#ellipse_shadow{
+    width: 35%;
+    position: absolute;
+    margin-top: 415px;
+    margin-left: -530px;
+    z-index: 0;
+}
+
+#ellipse_text{
+    font-size: 40px;
+    font-family: 'Jost';
+    position: absolute;
+    margin-top: -410px;
+    margin-left: 400px;
+}
+
+#volume_button_background_ellipse{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: -860px;
+    z-index: 3;
+}
+
+#volume_button_ellipse{
+    position: absolute;
+    margin-top: 355px;
+    margin-left: -850px;
+    z-index: 3;
+}
+
+#arrow_button_background_2{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 540px;
+    padding-bottom: 15px;
+}
+
+#arrow_button_2{
+    position: absolute;
+    margin-left: -140px;
+    margin-top: 550px;
+}
