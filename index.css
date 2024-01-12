@@ -26,9 +26,6 @@ body {
     display: grid;
     grid-template-rows: 20% 20% 20% 20%;
     grid-template-columns: 30% 10% 10% 20% 30%;
-    /* background-image: url(assets/Page_1/How\ your\ body\ works!\ \(Presentation\ \(169\)\)\ \(4\)\ 1.png);
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
 
 .background_img {
@@ -131,26 +128,26 @@ body {
     margin-left: 70px;
 }
 
-#volume_button_background_2{
+#volume_button_background_2 {
     position: absolute;
     margin-left: 270px;
     margin-top: 1px;
 }
 
-#volume_button_2{
+#volume_button_2 {
     position: relative;
     margin-left: 285px;
     margin-top: 10px;
     z-index: 3;
 }
 
-#ellipse_background{
+#ellipse_background {
     width: 100%;
     position: relative;
     margin-top: 40px;
 }
 
-#wheelchair_girl_2{
+#wheelchair_girl_2 {
     width: 35%;
     position: absolute;
     margin-top: -180px;
@@ -158,7 +155,7 @@ body {
     z-index: 1;
 }
 
-#ellipse_shadow{
+#ellipse_shadow {
     width: 35%;
     position: absolute;
     margin-top: 415px;
@@ -166,7 +163,7 @@ body {
     z-index: 0;
 }
 
-#ellipse_text{
+#ellipse_text {
     font-size: 40px;
     font-family: 'Jost';
     position: absolute;
@@ -174,29 +171,306 @@ body {
     margin-left: 400px;
 }
 
-#volume_button_background_ellipse{
+#volume_button_background_ellipse {
     position: absolute;
     margin-top: 350px;
     margin-left: -860px;
     z-index: 3;
 }
 
-#volume_button_ellipse{
+#volume_button_ellipse {
     position: absolute;
     margin-top: 355px;
     margin-left: -850px;
     z-index: 3;
 }
 
-#arrow_button_background_2{
+#arrow_button_background_2 {
     position: absolute;
-    margin-left: -150px;
+    margin-left: -160px;
     margin-top: 540px;
     padding-bottom: 15px;
 }
 
-#arrow_button_2{
+#arrow_button_2 {
     position: absolute;
-    margin-left: -140px;
+    margin-left: -150px;
     margin-top: 550px;
+}
+
+#page_2 {
+    display: none;
+}
+
+#page_2_background {
+    width: 100%;
+    grid-area: 1/1/3/6;
+    z-index: -1;
+}
+
+#prosthetic_leg {
+    z-index: 2;
+    grid-area: 2/1/2/1;
+    position: relative;
+    margin-top: 130px;
+    margin-left: 10px;
+}
+
+#blind_buy {
+    z-index: 1;
+    grid-area: 2/1/2/1;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 95px;
+}
+
+#wheelchair {
+    z-index: 1;
+    grid-area: 2/2/2/2;
+    position: relative;
+    margin-top: 130px;
+    margin-left: 5px;
+}
+
+#braces_girl {
+    z-index: 1;
+    grid-area: 2/4/2/4;
+    position: relative;
+    margin-top: 115px;
+    margin-left: -30px;
+}
+
+#volume_button_background_3 {
+    z-index: 1;
+    grid-area: 2/5/2/5;
+    position: relative;
+    margin-top: 420px;
+    margin-left: 110px;
+}
+
+#volume_button_3 {
+    z-index: 2;
+    grid-area: 2/5/2/5;
+    position: relative;
+    margin-top: 425px;
+    margin-left: 120px;
+}
+
+#back_button_background_3 {
+    z-index: 2;
+    grid-area: 2/1/2/1;
+    position: relative;
+    margin-top: 585px;
+    margin-left: 60px;
+    padding-bottom: 15px;
+}
+
+#back_button_3 {
+    z-index: 3;
+    grid-area: 2/1/2/1;
+    position: relative;
+    margin-top: 595px;
+    margin-left: 70px;
+}
+
+#front_button_background_3 {
+    z-index: 2;
+    grid-area: 2/5/2/5;
+    position: relative;
+    margin-top: 585px;
+    margin-left: 250px;
+    padding-bottom: 15px;
+}
+
+#front_button_3 {
+    z-index: 3;
+    grid-area: 2/5/2/5;
+    position: relative;
+    margin-top: 595px;
+    margin-left: 260px;
+}
+
+.names {
+    width: 120px;
+    height: 36px;
+    background-color: #FB37DB;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Jost';
+}
+
+#annie {
+    z-index: 4;
+    grid-area: 2/1/2/1;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+#david {
+    z-index: 4;
+    grid-area: 2/2/2/2;
+    position: relative;
+    margin-top: 40px;
+    margin-left: -160px;
+}
+
+#wade {
+    z-index: 4;
+    grid-area: 2/3/2/3;
+    position: relative;
+    margin-top: 80px;
+    margin-left: -60px;
+}
+
+#pam {
+    z-index: 4;
+    grid-area: 2/4/2/4;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+#page_2_text {
+    z-index: 4;
+    grid-area: 1/4/3/4;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 245px;
+    width: 135%;
+}
+
+#page_3 {
+    display: none;
+}
+
+#page_3_heading_background {
+    background-color: #FFDDE8;
+    z-index: 0;
+    grid-area: 1/1/1/6;
+    position: relative;
+    height: 200px;
+}
+
+#page_3_heading_text {
+    z-index: 1;
+    grid-area: 1/1/1/1;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#volume_button_background_4 {
+    z-index: 3;
+    grid-area: 1/3/1/3;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 80px;
+    padding-bottom: 50px;
+}
+
+#volume_button_4 {
+    z-index: 4;
+    grid-area: 1/3/1/3;
+    position: relative;
+    margin-top: 105px;
+    margin-left: 90px;
+}
+
+#page_3_background {
+    z-index: 0;
+    grid-area: 1/1/1/6;
+    position: relative;
+    width: 100%;
+    margin-top: 200px;
+}
+
+#page_3_text {
+    z-index: 1;
+    grid-area: 1/1/1/6;
+    position: relative;
+    margin-top: 240px;
+    margin-left: 30px;
+}
+
+#elevator {
+    z-index: 2;
+    grid-area: 1/1/1/1;
+    position: relative;
+    margin-top: 650px;
+}
+
+#calling_guy{
+    z-index: 2;
+    grid-area: 1/1/1/1;
+    position: relative;
+    margin-top: 560px;
+    margin-left: 170px;
+}
+
+#exclamation{
+    z-index: 2;
+    grid-area: 1/1/1/1;
+    position: relative;
+    margin-top: 440px;
+    margin-left: 230px;
+}
+
+#page_3_wheelchair{
+    z-index: 2;
+    grid-area: 1/2/1/2;
+    position: relative;
+    margin-top: 500px;
+    margin-left: 165px;
+}
+
+
+#page_3_girl_leg_braces{
+    z-index: 3;
+    grid-area: 1/2/1/2;
+    position: relative;
+    margin-top: 500px;
+    margin-left: 400px;
+}
+
+#stairs{
+    z-index: 4;
+    grid-area: 1/2/1/2;
+    position: relative;
+    margin-top: 395px;
+    margin-left: 602px;
+    width: 260%;
+}
+
+#page_3_volume_button_background{
+    z-index: 3;
+    grid-area: 1/5/1/5;
+    position: relative;
+    margin-top: 400px;
+    margin-left: 120px;
+}
+
+#page_3_volume_button{
+    z-index: 4;
+    grid-area: 1/5/1/5;
+    position: relative;
+    margin-top: 405px;
+    margin-left: 130px;
+}
+
+#page_3_back_button_background{
+    z-index: 2;
+    grid-area: 1/1/1/1;
+    position: relative;
+    margin-top: 1000px;
+    margin-left: 60px;
+    padding-bottom: 20px;
+}
+
+#page_3_back_button{
+    z-index: 3;
+    grid-area: 1/1/1/1;
+    position: relative;
+    margin-top: 1010px;
+    margin-left: 70px;
 }
