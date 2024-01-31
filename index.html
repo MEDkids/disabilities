@@ -24,8 +24,8 @@
             </div>
             <div id="grid-container">
                 <img class="background_img" src="./assets/Page_1/How your body works! (Presentation (169)) (4) 1.png">
-                <img id="volume_button_background_1" src="./assets/Page_1/Ellipse 2.png">
-                <img id="volume_button_1" src="./assets/Page_1/How your body works! 33.png">
+                <img id="page_1_volume_button_background_1" src="./assets/Page_1/Ellipse 2.png">
+                <img id="page_1_volume_button_1" src="./assets/Page_1/How your body works! 33.png">
                 <img id="prostethic_girl" src="./assets/Page_1/special-needs-PROSTETHIC-GIRL-clipart-08.png">
                 <img id="prostethic_guy" src="./assets/Page_1/special-needs-PROSTETHIC-clipart-08.png">
                 <img id="girl_leg_braces" src="./assets/Page_1/GIRL-WITH-LEG-BRACES-CLIPART-10.png">
@@ -37,8 +37,8 @@
 
         <section>
             <div id="page_2_heading" class="bold">What is a disability?</div>
-            <img id="volume_button_background_2" src="./assets/Page_1/Ellipse 4.png">
-            <img id="volume_button_2" src="./assets/Page_1/How your body works! 34.png">
+            <img id="page_1_volume_button_background_2" src="./assets/Page_1/Ellipse 4.png">
+            <img id="page_1_volume_button_2" src="./assets/Page_1/How your body works! 34.png">
             <img id="ellipse_background" src="./assets/Page_1/Ellipse 1.png">
             <img id="wheelchair_girl_2" src="./assets/Page_1/WHEELCHAIR-CLIPART-girls-08.png">
             <img id="ellipse_shadow" src="./assets/Page_1/Ellipse 3.png">
@@ -71,8 +71,8 @@
             <img id="blind_buy" src="./assets/Page_2/special-needs-blind-boy-clipart-06.png">
             <img id="wheelchair" src="./assets/Page_2/WHEELCHAIR-CLIPART-boys-08.png">
             <img id="braces_girl" src="./assets/Page_2/GIRL-WITH-LEG-BRACES-CLIPART-08.png">
-            <img id="volume_button_background_3" src="./assets/Page_2/Ellipse 6.png">
-            <img id="volume_button_3" src="./assets/Page_2/How your body works! 36.png">
+            <img id="page_2_volume_button_background_1" src="./assets/Page_2/Ellipse 6.png">
+            <img id="page_2_volume_button_1" src="./assets/Page_2/How your body works! 36.png">
             <img id="back_button_background_3" src="./assets/Page_2/Ellipse 7.png" onclick="previousPage(2)">
             <img id="back_button_3" src="./assets/Page_2/Arrow.png" onclick="previousPage(2)">
             <img id="front_button_background_3" src="./assets/Page_2/Ellipse 10.png" onclick="nextPage(2)">
@@ -110,24 +110,141 @@
         </div>
 
         <div id="grid-container">
-            <div id="page_3_heading_background" class="center"></div>
+            <div id="page_n_heading_background" class="center"></div>
             <img id="page_3_heading_text" src="./assets/Page_3/page_3_heading_text.png">
-            <img id="volume_button_background_4" src="./assets/Page_2/Ellipse 6.png">
-            <img id="volume_button_4" src="./assets/Page_2/How your body works! 36.png">
+            <img id="page_3_volume_button_background_1" src="./assets/Page_2/Ellipse 6.png">
+            <img id="page_3_volume_button_1" src="./assets/Page_2/How your body works! 36.png">
             <img id="page_3_background" src="./assets/Page_3/page_3_background.png">
             <img id="page_3_text" src="./assets/Page_3/page_3_text.png">
-            <img id="elevator" src="./assets/Page_3/elevator.png">
+            <img id="elevator" src="./assets/Page_3/elevator.png" onclick="nextPage(3)">
             <img id="calling_guy" src="./assets/Page_3/calling_guy.png">
             <img id="exclamation" src="./assets/Page_3/exclamation.png">
             <img id="page_3_wheelchair" src="./assets/Page_3/wheelchair.png">
             <img id="page_3_girl_leg_braces" src="./assets/Page_3/girl with leg braces.png">
             <img id="stairs" src="./assets/Page_3/stairs.png">
-            <img id="page_3_volume_button_background" src="./assets/Page_2/Ellipse 6.png">
-            <img id="page_3_volume_button" src="./assets/Page_2/How your body works! 36.png">
+            <img id="page_3_volume_button_background_2" src="./assets/Page_2/Ellipse 6.png">
+            <img id="page_3_volume_button_2" src="./assets/Page_2/How your body works! 36.png">
             <img id="page_3_back_button_background" src="./assets/Page_2/Ellipse 7.png" onclick="previousPage(3)">
             <img id="page_3_back_button" src="./assets/Page_2/Arrow.png" onclick="previousPage(3)">
+            <img id="page_3_hint_text" src="./assets/Page_3/page_3_hint_text.png">
+            <img id="page_3_hint_audio_background" src="./assets/Page_1/Ellipse 5.png">
+            <img id="page_3_hint_audio" src="./assets/Page_1/How your body works! 35.png">
+            <img id="page_3_yes_button" src="./assets/Page_3/page_3_text_YES!.png" onclick = "showHint()">
+            <img id="page_3_yes_background" src="./assets/Page_3/yes_background.png" onclick = "showHint()">
+            <img id="elevator_arrow" src="./assets/Page_4/arrow_for_elevator.gif">
+
         </div>
     </div>
-</body>
 
+    <div id="page_4">
+        <div class="navbar">
+            <h1>
+                <i class="fa fa-bars" id="hamburger_nenu"></i>
+            </h1>
+            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png">
+        </div>
+        <div class="center">
+            <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
+        </div>
+
+        <div id="grid-container">
+            <div id="page_n_heading_background" class="center"></div>
+            <img id="page_4_background" src="./assets/Page_4/page_4_background.png">
+            <img id="page_3_heading_text" src="./assets/Page_3/page_3_heading_text.png">
+            <img id="page_3_volume_button_background_1" src="./assets/Page_2/Ellipse 6.png">
+            <img id="page_3_volume_button_1" src="./assets/Page_2/How your body works! 36.png">
+            <img id="elevator_2" src="./assets/Page_4/elevator_2.png">
+            <img id="page_4_wheelchair_guy" src="./assets/Page_4/wheelchair_boy.png">
+            <img id="page_4_girl_leg_braces" src="./assets/Page_4/GIRL-WITH-LEG-BRACES-CLIPART-08.png">
+            <img id="page_4_text" src = "assets/Page_4/page_4_text.png";>
+            <img id="page_4_volume_button_background_1" src="./assets/Page_2/Ellipse 6.png">
+            <img id="page_4_volume_button_1" src="./assets/Page_2/How your body works! 36.png">
+            <img id="boy_calling_2" src="./assets/Page_4/boy_calling_2.png">
+            <img id="back_button_background_4" src="./assets/Page_2/Ellipse 7.png" onclick="previousPage(4)">
+            <img id="back_button_4" src="./assets/Page_2/Arrow.png" onclick="previousPage(4)">
+            <img id="front_button_background_4" src="./assets/Page_2/Ellipse 10.png" onclick="nextPage(4)">
+            <img id="front_button_4" src="./assets/Page_2/Arrow-1.png" onclick="nextPage(4)">
+        </div>
+    </div>
+
+    <div id="page_5">
+        <div class="navbar">
+            <h1>
+                <i class="fa fa-bars" id="hamburger_nenu"></i>
+            </h1>
+            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png">
+        </div>
+        <div class="center">
+            <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
+        </div>
+        <div id="grid-container">
+            <div id="page_n_heading_background" class="center"></div>
+            <img id="page_5_heading_text" src="./assets/Page_5/page_5_heading_text.png">
+            <img id="page_3_volume_button_background_1" src="./assets/Page_2/Ellipse 6.png">
+            <img id="page_3_volume_button_1" src="./assets/Page_2/How your body works! 36.png">
+            <img id="page_5_background" src="./assets/Page_5/page_5_background.png">
+            <img id="page_5_text" src="./assets/Page_5/page_5_text.png">
+            <img id="page_5_volume_button_background_5" src="./assets/Page_2/Ellipse 6.png">
+            <img id="page_5_volume_button_5" src="./assets/Page_2/How your body works! 36.png">
+            <img id="page_5_girl" src="./assets/Page_5/girl.png">
+            <img id="page_5_boy" src="./assets/Page_5/boy.png">
+            <img id="back_button_background_5" src="./assets/Page_2/Ellipse 7.png" onclick="previousPage(5)">
+            <img id="back_button_5" src="./assets/Page_2/Arrow.png" onclick="previousPage(5)">
+            <img id="front_button_background_5" src="./assets/Page_2/Ellipse 10.png" onclick="nextPage(5)">
+            <img id="front_button_5" src="./assets/Page_2/Arrow-1.png" onclick="nextPage(5)">
+        </div>
+    </div>
+
+    <div id="page_6">
+        <div class="navbar">
+            <h1>
+                <i class="fa fa-bars" id="hamburger_nenu"></i>
+            </h1>
+            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png">
+        </div>
+        <div class="center">
+            <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
+        </div>
+        <div id="grid-container">
+            <div id="page_n_heading_background" class="center"></div>
+            <img id="page_5_heading_text" src="./assets/Page_5/page_5_heading_text.png">
+            <img id="page_3_volume_button_background_1" src="./assets/Page_2/Ellipse 6.png">
+            <img id="page_3_volume_button_1" src="./assets/Page_2/How your body works! 36.png">
+            <img id="page_5_background" src="./assets/Page_5/page_5_background.png">
+            <img id="page_6_text" src="./assets/Page_6/page_6_text.png">
+            <img id="page_6_volume_button_background_5" src="./assets/Page_2/Ellipse 6.png">
+            <img id="page_6_volume_button_5" src="./assets/Page_2/How your body works! 36.png">
+            <img id="page_6_girl_and_boy" src="./assets/Page_6/girl_and_boy.png">
+            <img id="back_button_background_5" src="./assets/Page_2/Ellipse 7.png" onclick="previousPage(6)">
+            <img id="back_button_5" src="./assets/Page_2/Arrow.png" onclick="previousPage(6)">
+            <img id="front_button_background_5" src="./assets/Page_2/Ellipse 10.png" onclick="nextPage(6)">
+            <img id="front_button_5" src="./assets/Page_2/Arrow-1.png" onclick="nextPage(6)">
+        </div>
+    </div>
+
+    <div id="page_7">
+        <div class="navbar">
+            <h1>
+                <i class="fa fa-bars" id="hamburger_nenu"></i>
+            </h1>
+            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png">
+        </div>
+        <div class="center">
+            <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
+        </div>
+        <div id="grid-container">
+            <div id="page_7_heading_background" class="center"></div>
+            <img id="page_7_heading_text" src="./assets/Page_7/heading_text.png">
+            <img id="page_7_volume_button_background_1" src="./assets/Page_2/Ellipse 6.png">
+            <img id="page_7_volume_button_1" src="./assets/Page_2/How your body works! 36.png">
+            <img id="page_7_background" src="./assets/Page_7/Ellipse 14.png">
+            <img id="page_7_boom" class = "fadeOut" src="./assets/Page_7/boom.gif">
+            <img id="page_7_blast" class = "fadeIn" src="./assets/Page_7/blast.png">
+            <img id="back_button_background_7" src="./assets/Page_2/Ellipse 7.png" onclick="previousPage(7)">
+            <img id="back_button_7" src="./assets/Page_2/Arrow.png" onclick="previousPage(7)">
+            <img id="front_button_background_7" src="./assets/Page_2/Ellipse 10.png" onclick="restart()">
+            <img id="front_button_7" src="./assets/Page_7/restart_arrow.png" onclick="restart()">
+        </div>  
+    </div>
+</body>
 </html>

@@ -3,6 +3,34 @@ body {
     margin: 0;
 }
 
+/* #page_1 {
+    display: none;
+} */
+
+#page_2 {
+    display: none;
+}
+
+#page_3 {
+    display: none;
+}
+
+#page_4 {
+    display: none;
+}
+
+#page_5 {
+    display: none;
+}
+
+#page_6 {
+    display: none;
+}
+
+#page_7{
+    display: none;
+}
+
 .navbar {
     background-color: #FC58D8;
     width: 100%;
@@ -56,7 +84,7 @@ body {
     justify-content: center;
 }
 
-#volume_button_background_1 {
+#page_1_volume_button_background_1 {
     z-index: 1;
     grid-area: 1/3/1/3;
     position: relative;
@@ -64,7 +92,7 @@ body {
     margin-left: 30px;
 }
 
-#volume_button_1 {
+#page_1_volume_button_1 {
     z-index: 2;
     grid-area: 1/3/1/3;
     position: relative;
@@ -128,13 +156,13 @@ body {
     margin-left: 70px;
 }
 
-#volume_button_background_2 {
+#page_1_volume_button_background_2 {
     position: absolute;
     margin-left: 270px;
     margin-top: 1px;
 }
 
-#volume_button_2 {
+#page_1_volume_button_2 {
     position: relative;
     margin-left: 285px;
     margin-top: 10px;
@@ -198,9 +226,6 @@ body {
     margin-top: 550px;
 }
 
-#page_2 {
-    display: none;
-}
 
 #page_2_background {
     width: 100%;
@@ -240,7 +265,7 @@ body {
     margin-left: -30px;
 }
 
-#volume_button_background_3 {
+#page_2_volume_button_background_1 {
     z-index: 1;
     grid-area: 2/5/2/5;
     position: relative;
@@ -248,7 +273,7 @@ body {
     margin-left: 110px;
 }
 
-#volume_button_3 {
+#page_2_volume_button_1 {
     z-index: 2;
     grid-area: 2/5/2/5;
     position: relative;
@@ -340,13 +365,10 @@ body {
     width: 135%;
 }
 
-#page_3 {
-    display: none;
-}
-
-#page_3_heading_background {
+#page_n_heading_background {
     background-color: #FFDDE8;
     z-index: 0;
+    width: 100%;
     grid-area: 1/1/1/6;
     position: relative;
     height: 200px;
@@ -360,7 +382,7 @@ body {
     margin-left: 25px;
 }
 
-#volume_button_background_4 {
+#page_3_volume_button_background_1 {
     z-index: 3;
     grid-area: 1/3/1/3;
     position: relative;
@@ -369,7 +391,7 @@ body {
     padding-bottom: 50px;
 }
 
-#volume_button_4 {
+#page_3_volume_button_1 {
     z-index: 4;
     grid-area: 1/3/1/3;
     position: relative;
@@ -400,7 +422,17 @@ body {
     margin-top: 650px;
 }
 
-#calling_guy{
+#elevator_arrow {
+    z-index: 2;
+    grid-area: 1/1/1/1;
+    position: relative;
+    margin-top: 550px;
+    margin-left: 62px;
+    width: 20%;
+    visibility: hidden;
+}
+
+#calling_guy {
     z-index: 2;
     grid-area: 1/1/1/1;
     position: relative;
@@ -408,7 +440,7 @@ body {
     margin-left: 170px;
 }
 
-#exclamation{
+#exclamation {
     z-index: 2;
     grid-area: 1/1/1/1;
     position: relative;
@@ -416,7 +448,7 @@ body {
     margin-left: 230px;
 }
 
-#page_3_wheelchair{
+#page_3_wheelchair {
     z-index: 2;
     grid-area: 1/2/1/2;
     position: relative;
@@ -425,7 +457,7 @@ body {
 }
 
 
-#page_3_girl_leg_braces{
+#page_3_girl_leg_braces {
     z-index: 3;
     grid-area: 1/2/1/2;
     position: relative;
@@ -433,7 +465,7 @@ body {
     margin-left: 400px;
 }
 
-#stairs{
+#stairs {
     z-index: 4;
     grid-area: 1/2/1/2;
     position: relative;
@@ -442,7 +474,7 @@ body {
     width: 260%;
 }
 
-#page_3_volume_button_background{
+#page_3_volume_button_background_2 {
     z-index: 3;
     grid-area: 1/5/1/5;
     position: relative;
@@ -450,7 +482,7 @@ body {
     margin-left: 120px;
 }
 
-#page_3_volume_button{
+#page_3_volume_button_2 {
     z-index: 4;
     grid-area: 1/5/1/5;
     position: relative;
@@ -458,19 +490,394 @@ body {
     margin-left: 130px;
 }
 
-#page_3_back_button_background{
+#page_3_back_button_background {
     z-index: 2;
     grid-area: 1/1/1/1;
     position: relative;
-    margin-top: 1000px;
+    margin-top: 975px;
     margin-left: 60px;
     padding-bottom: 20px;
 }
 
-#page_3_back_button{
+#page_3_back_button {
     z-index: 3;
     grid-area: 1/1/1/1;
     position: relative;
-    margin-top: 1010px;
+    margin-top: 985px;
     margin-left: 70px;
+}
+
+#page_3_hint_text {
+    z-index: 2;
+    grid-area: 1/5/1/5;
+    position: relative;
+    margin-top: 975px;
+    margin-left: -20px;
+    /* padding-bottom: 20px; */
+}
+
+#page_3_hint_audio_background {
+    z-index: 2;
+    grid-area: 1/5/1/5;
+    position: relative;
+    margin-top: 1025px;
+    margin-left: 55px;
+}
+
+#page_3_hint_audio {
+    z-index: 3;
+    grid-area: 1/5/1/5;
+    position: relative;
+    margin-top: 1030px;
+    margin-left: 65px;
+}
+
+#page_3_yes_button {
+    z-index: 3;
+    grid-area: 1/5/1/5;
+    position: relative;
+    margin-top: 1030px;
+    margin-left: 250px;
+}
+
+#page_3_yes_background {
+    z-index: 2;
+    grid-area: 1/5/1/5;
+    position: relative;
+    margin-top: 993px;
+    margin-left: 228px;
+}
+
+#page_4_background {
+    z-index: 0;
+    grid-area: 1/1/1/6;
+    position: relative;
+    width: 100%;
+    margin-top: 200px;
+}
+
+#elevator_2 {
+    z-index: 1;
+    grid-area: 1/1/1/1;
+    margin-top: 200px;
+}
+
+
+
+#page_4_wheelchair_guy {
+    z-index: 1;
+    grid-area: 1/2/1/2;
+    margin-top: 500px;
+    margin-left: 30px;
+}
+
+#page_4_girl_leg_braces {
+    z-index: 1;
+    grid-area: 1/2/1/2;
+    margin-top: 500px;
+    margin-left: 300px;
+}
+
+#page_4_text {
+    z-index: 1;
+    grid-area: 1/3/1/3;
+    margin-top: 250px;
+    margin-left: 170px;
+}
+
+#page_4_volume_button_background_1 {
+    z-index: 3;
+    grid-area: 1/3/1/3;
+    position: relative;
+    margin-top: 420px;
+    margin-left: 360px;
+}
+
+#page_4_volume_button_1 {
+    z-index: 4;
+    grid-area: 1/3/1/3;
+    position: relative;
+    margin-top: 425px;
+    margin-left: 371px;
+}
+
+#boy_calling_2 {
+    z-index: 4;
+    grid-area: 1/3/1/3;
+    position: relative;
+    margin-top: 525px;
+    margin-left: 320px;
+}
+
+#back_button_background_4 {
+    z-index: 3;
+    grid-area: 1/1/1/1;
+    margin-top: 1035px;
+    margin-left: 50px;
+}
+
+#back_button_4 {
+    z-index: 4;
+    grid-area: 1/1/1/1;
+    margin-top: 1045px;
+    margin-left: 58px;
+}
+
+#front_button_background_4 {
+    z-index: 4;
+    grid-area: 1/5/1/5;
+    margin-top: 1035px;
+    margin-left: 230px;
+    padding-bottom: 20px;
+}
+
+#front_button_4 {
+    z-index: 4;
+    grid-area: 1/5/1/5;
+    margin-top: 1045px;
+    margin-left: 238px;
+}
+
+
+#page_5_heading_text {
+    z-index: 1;
+    grid-area: 1/1/1/1;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+#page_5_background {
+    z-index: 0;
+    grid-area: 1/1/1/6;
+    margin-top: 200px;
+    width: 100%;
+}
+
+#page_5_text {
+    z-index: 1;
+    grid-area: 1/2/1/2;
+    position: relative;
+    margin-top: 250px;
+}
+
+#page_5_volume_button_background_5 {
+    z-index: 3;
+    grid-area: 1/3/1/3;
+    position: relative;
+    margin-top: 650px;
+    margin-left: 80px;
+    padding-bottom: 50px;
+}
+
+#page_5_volume_button_5 {
+    z-index: 4;
+    grid-area: 1/3/1/3;
+    position: relative;
+    margin-top: 655px;
+    margin-left: 90px;
+}
+
+#page_5_girl {
+    z-index: 3;
+    grid-area: 1/1/1/1;
+    position: relative;
+    margin-top: 400px;
+    margin-left: 90px;
+}
+
+#page_5_boy {
+    z-index: 3;
+    grid-area: 1/4/1/4;
+    position: relative;
+    margin-top: 330px;
+    margin-left: 330px;
+}
+
+#back_button_background_5 {
+    z-index: 6;
+    grid-area: 1/1/1/1;
+    margin-top: 900px;
+    margin-left: 50px;
+}
+
+#back_button_5 {
+    z-index: 7;
+    grid-area: 1/1/1/1;
+    margin-top: 910px;
+    margin-left: 58px;
+}
+
+#front_button_background_5 {
+    z-index: 6;
+    grid-area: 1/5/1/5;
+    margin-top: 900px;
+    margin-left: 230px;
+    padding-bottom: 20px;
+}
+
+#front_button_5 {
+    z-index: 7;
+    grid-area: 1/5/1/5;
+    margin-top: 910px;
+    margin-left: 238px;
+}
+
+#page_6_text {
+    z-index: 1;
+    grid-area: 1/1/1/1;
+    position: relative;
+    margin-top: 380px;
+    margin-left: 70px;
+}
+
+#page_6_volume_button_background_5 {
+    z-index: 1;
+    grid-area: 1/1/1/1;
+    position: relative;
+    margin-top: 680px;
+    margin-left: 230px;
+}
+
+#page_6_volume_button_5 {
+    z-index: 1;
+    grid-area: 1/1/1/1;
+    position: relative;
+    margin-top: 685px;
+    margin-left: 240px;
+}
+
+#page_6_girl_and_boy {
+    z-index: 1;
+    grid-area: 1/1/1/1;
+    position: relative;
+    margin-top: 330px;
+    margin-left: 540px;
+}
+
+#page_7_heading_text {
+    z-index: 1;
+    grid-area: 1/1/1/1;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+#page_7_volume_button_background_1 {
+    z-index: 3;
+    grid-area: 1/3/1/3;
+    position: relative;
+    margin-top: 170px;
+    margin-left: 80px;
+    padding-bottom: 50px;
+}
+
+#page_7_volume_button_1 {
+    z-index: 4;
+    grid-area: 1/3/1/3;
+    position: relative;
+    margin-top: 175px;
+    margin-left: 90px;
+}
+
+#page_7_heading_background {
+    background-color: #FFDDE8;
+    z-index: 0;
+    width: 100%;
+    grid-area: 1/1/1/6;
+    position: relative;
+    height: 270px;
+}
+
+#page_7_background {
+    z-index: 0;
+    grid-area: 1/1/1/6;
+    margin-top: 270px;
+    margin-left: -75px;
+}
+
+#page_7_boom {
+    z-index: 6;
+    grid-area: 1/2/1/2;
+    margin-top: 600px;
+    margin-left: 50px;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+}
+
+#page_7_blast {
+    z-index: 5;
+    grid-area: 1/1/1/1;
+    margin-top: 388px;
+    margin-left: 50px;
+    animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#back_button_background_7 {
+    z-index: 6;
+    grid-area: 1/1/1/1;
+    margin-top: 1000px;
+    margin-left: 50px;
+}
+
+#back_button_7 {
+    z-index: 7;
+    grid-area: 1/1/1/1;
+    margin-top: 1010px;
+    margin-left: 58px;
+}
+
+#front_button_background_7 {
+    z-index: 6;
+    grid-area: 1/5/1/5;
+    margin-top: 1000px;
+    margin-left: 230px;
+    padding-bottom: 20px;
+}
+
+#front_button_7 {
+    z-index: 7;
+    grid-area: 1/5/1/5;
+    margin-top: 1023px;
+    margin-left: 252px;
 }
