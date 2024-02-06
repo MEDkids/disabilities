@@ -10,14 +10,13 @@
 <body>
     <script src="main.js"></script>
 
-
     <div id="page_1">
         <section>
             <div class="navbar">
                 <h1>
                     <i class="fa fa-bars" id="hamburger_nenu"></i>
                 </h1>
-                <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png">
+                <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png" onclick="restart()">
             </div>
             <div class="center">
                 <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
@@ -60,18 +59,18 @@
             <h1>
                 <i class="fa fa-bars" id="hamburger_nenu"></i>
             </h1>
-            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png">
+            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png" onclick="restart()">
         </div>
         <div class="center">
             <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
         </div>
         <div id="grid-container">
             <img id="page_2_background" src="./assets/Page_2/Page_2_background.png">
-            <img id="prosthetic_leg" src="./assets/Page_2/special-needs-PROSTETHIC-GIRL-clipart-06.png">
-            <img id="blind_buy" src="./assets/Page_2/special-needs-blind-boy-clipart-06.png">
-            <img id="wheelchair" src="./assets/Page_2/WHEELCHAIR-CLIPART-boys-08.png">
-            <img id="braces_girl" src="./assets/Page_2/GIRL-WITH-LEG-BRACES-CLIPART-08.png">
-            <img id="page_2_volume_button_background_1" src="./assets/Page_2/Ellipse 6.png">
+            <img id="prosthetic_leg" src="./assets/Page_2/special-needs-PROSTETHIC-GIRL-clipart-06.png" onclick="goToPage(2,8)">
+            <img id="blind_buy" src="./assets/Page_2/special-needs-blind-boy-clipart-06.png" onclick="goToPage(2,9)">
+            <img id="wheelchair" src="./assets/Page_2/WHEELCHAIR-CLIPART-boys-08.png" onclick="goToPage(2,10)">
+            <img id="braces_girl" src="./assets/Page_2/GIRL-WITH-LEG-BRACES-CLIPART-08.png" onclick="goToPage(2,11)">
+            <img id="page_2_volume_button_background_1" src="./assets/Page_2/Ellipse 6.png" >
             <img id="page_2_volume_button_1" src="./assets/Page_2/How your body works! 36.png">
             <img id="back_button_background_3" src="./assets/Page_2/Ellipse 7.png" onclick="previousPage(2)">
             <img id="back_button_3" src="./assets/Page_2/Arrow.png" onclick="previousPage(2)">
@@ -103,7 +102,7 @@
             <h1>
                 <i class="fa fa-bars" id="hamburger_nenu"></i>
             </h1>
-            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png">
+            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png" onclick="restart()">
         </div>
         <div class="center">
             <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
@@ -141,7 +140,7 @@
             <h1>
                 <i class="fa fa-bars" id="hamburger_nenu"></i>
             </h1>
-            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png">
+            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png" onclick="restart()">
         </div>
         <div class="center">
             <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
@@ -172,7 +171,7 @@
             <h1>
                 <i class="fa fa-bars" id="hamburger_nenu"></i>
             </h1>
-            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png">
+            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png" onclick="restart()">
         </div>
         <div class="center">
             <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
@@ -200,7 +199,7 @@
             <h1>
                 <i class="fa fa-bars" id="hamburger_nenu"></i>
             </h1>
-            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png">
+            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png" onclick="restart()">
         </div>
         <div class="center">
             <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
@@ -227,7 +226,7 @@
             <h1>
                 <i class="fa fa-bars" id="hamburger_nenu"></i>
             </h1>
-            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png">
+            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png" onclick="restart()">
         </div>
         <div class="center">
             <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
@@ -244,7 +243,92 @@
             <img id="back_button_7" src="./assets/Page_2/Arrow.png" onclick="previousPage(7)">
             <img id="front_button_background_7" src="./assets/Page_2/Ellipse 10.png" onclick="restart()">
             <img id="front_button_7" src="./assets/Page_7/restart_arrow.png" onclick="restart()">
-        </div>  
+        </div>
+    </div>
+
+    <div id="page_8">
+        <div class="navbar">
+            <h1>
+                <i class="fa fa-bars" id="hamburger_nenu"></i>
+            </h1>
+            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png" onclick="restart()">
+        </div>
+        <div class="center">
+            <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
+        </div>
+        <div id="grid-container">
+            <img id="back_button_background_8" src="./assets/Page_2/Ellipse 7.png" onclick="goToPage(8,2)">
+            <img id="back_button_8" src="./assets/Page_2/Arrow.png" onclick="goToPage(8,2)">
+            <img id="annie_main" src="./assets/Page_8/special-needs-PROSTETHIC-GIRL-clipart-06.png">
+            <img id="annie_text" src="./assets/Page_8/text.png">
+            <img id="butterflies" src="./assets/Page_8/butterflies.gif">
+            <img id="page_8_volume_button_background_1" src="./assets/Page_8/volume_background.png">
+            <img id="page_8_volume_button_1" src="./assets/Page_8/volume.png">
+        </div>
+    </div>
+
+    <div id="page_9">
+        <div class="navbar">
+            <h1>
+                <i class="fa fa-bars" id="hamburger_nenu"></i>
+            </h1>
+            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png" onclick="restart()">
+        </div>
+        <div class="center">
+            <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
+        </div>
+        <div id="grid-container">
+            <img id="back_button_background_8" src="./assets/Page_2/Ellipse 7.png" onclick="goToPage(9,2)">
+            <img id="back_button_8" src="./assets/Page_2/Arrow.png" onclick="goToPage(9,2)">
+            <img id="david_main" src="./assets/Page_9/blind.png">
+            <img id="david_text" src="./assets/Page_9/text.png">
+            <img id="dog_food" src="./assets/Page_9/dog_food.gif">
+            <img id="page_9_volume_button_background_1" src="./assets/Page_8/volume_background.png">
+            <img id="page_9_volume_button_1" src="./assets/Page_8/volume.png">
+        </div>
+    </div>
+
+    <div id="page_10">
+        <div class="navbar">
+            <h1>
+                <i class="fa fa-bars" id="hamburger_nenu"></i>
+            </h1>
+            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png" onclick="restart()">
+        </div>
+        <div class="center">
+            <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
+        </div>
+        <div id="grid-container">
+            <img id="back_button_background_8" src="./assets/Page_2/Ellipse 7.png" onclick="goToPage(10,2)">
+            <img id="back_button_8" src="./assets/Page_2/Arrow.png" onclick="goToPage(10,2)">
+            <img id="wade_main" src="./assets/Page_10/WHEELCHAIR-CLIPART-boys-08.png">
+            <img id="wade_text" src="./assets/Page_10/text.png">
+            <img id="zap_1" src="./assets/Page_10/zap_1.gif">
+            <img id="zap_2" src="./assets/Page_10/zap_2.gif">
+            <img id="zap_3" src="./assets/Page_10/zap_3.gif">
+            <img id="page_10_volume_button_background_1" src="./assets/Page_8/volume_background.png">
+            <img id="page_10_volume_button_1" src="./assets/Page_8/volume.png">
+        </div>
+    </div>
+
+    <div id="page_11">
+        <div class="navbar">
+            <h1>
+                <i class="fa fa-bars" id="hamburger_nenu"></i>
+            </h1>
+            <img class="logo" src="./assets/Page_1/Pink MEDKIds Logo 1.png" onclick="restart()">
+        </div>
+        <div class="center">
+            <div id="page_1_heading" class="bold">Our Friends With Disabilities!</div>
+        </div>
+        <div id="grid-container">
+            <img id="back_button_background_8" src="./assets/Page_2/Ellipse 7.png" onclick="goToPage(11,2)">
+            <img id="back_button_8" src="./assets/Page_2/Arrow.png" onclick="goToPage(11,2)">
+            <img id="pam_main" src="./assets/Page_11/GIRL-WITH-LEG-BRACES-CLIPART-08.png">
+            <img id="pam_text" src="./assets/Page_11/text.png">
+            <img id="page_11_volume_button_background_1" src="./assets/Page_8/volume_background.png">
+            <img id="page_11_volume_button_1" src="./assets/Page_8/volume.png">
+        </div>
     </div>
 </body>
 </html>

@@ -39,5 +39,13 @@ function restart() {
 
     x.style.display = 'none';
     y.style.display = 'block';
+}
 
+function goToPage(currentNumber, pageNumber) {
+    window.scroll(0,0);
+    var x = document.getElementById("page_" + currentNumber);
+    var y = document.getElementById("page_" + pageNumber);
+
+    x.style.display = 'none';
+    y.style.display = 'block';
 }
