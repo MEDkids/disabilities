@@ -9,8 +9,7 @@ function nextPage(pageNumber) {
     var z = document.getElementById("elevator_arrow");
     z.style.visibility = 'hidden';
 
-    window.scroll(0,250);
-
+    window.scroll(0, 250);
 }
 
 function previousPage(pageNumber) {
@@ -23,8 +22,7 @@ function previousPage(pageNumber) {
     var z = document.getElementById("elevator_arrow");
     z.style.visibility = 'hidden';
 
-    window.scroll(0,0);
-
+    window.scroll(0, 0);
 }
 
 function showHint() {
@@ -33,7 +31,7 @@ function showHint() {
 }
 
 function restart() {
-    window.scroll(0,0);
+    window.scroll(0, 0);
     var x = document.getElementById("page_7");
     var y = document.getElementById("page_1");
 
@@ -42,7 +40,7 @@ function restart() {
 }
 
 function goToPage(currentNumber, pageNumber) {
-    window.scroll(0,0);
+    window.scroll(0, 0);
     var x = document.getElementById("page_" + currentNumber);
     var y = document.getElementById("page_" + pageNumber);
 

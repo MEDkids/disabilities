@@ -3,10 +3,6 @@ body {
     margin: 0;
 }
 
-#page_1 {
-    display: none;
-}
-
 #page_2 {
     display: none;
 }
@@ -27,7 +23,7 @@ body {
     display: none;
 }
 
-#page_7{
+#page_7 {
     display: none;
 }
 
@@ -43,9 +39,9 @@ body {
     display: none;
 }
 
-/* #page_11{
+#page_11 {
     display: none;
-} */
+}
 
 
 .navbar {
@@ -530,7 +526,6 @@ body {
     position: relative;
     margin-top: 975px;
     margin-left: -20px;
-    /* padding-bottom: 20px; */
 }
 
 #page_3_hint_audio_background {
@@ -865,6 +860,7 @@ body {
     20% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -915,81 +911,108 @@ body {
     margin-left: 78px;
 }
 
-#annie_main{
+#annie_main {
     grid-area: 1/1/1/1;
     margin-left: 65px;
     margin-top: 200px;
     padding-bottom: 60px;
 }
 
-#annie_text{
+#annie_text {
     grid-area: 1/2/1/2;
     margin-left: 125px;
     margin-top: 300px;
 }
 
-#butterflies{
+#butterflies {
     grid-area: 1/2/1/2;
     margin-left: -80px;
 }
 
-#page_8_volume_button_background_1{
+#page_8_volume_button_background_1 {
     grid-area: 1/2/1/2;
     margin-left: 415px;
     margin-top: 830px;
 }
 
-#page_8_volume_button_1{
+#page_8_volume_button_1 {
     grid-area: 1/2/1/2;
     margin-left: 428px;
     margin-top: 840px;
 }
 
-#david_main{
+#david_main {
     grid-area: 1/2/1/2;
     margin-left: 190px;
-    margin-top: 100px;
+    margin-top: 140px;
+    z-index: 5;
 }
 
-#david_text{
+#david_text {
     grid-area: 1/1/1/1;
     margin-left: 65px;
-    margin-top: 200px;
+    margin-top: 240px;
     padding-bottom: 60px;
+    z-index: 5;
 }
 
-#dog_food{
+#dog_food {
     grid-area: 1/2/1/2;
     margin-left: 355px;
-    margin-top: 1050px;
+    margin-top: 1000px;
+    width: 155%;
 }
 
-#page_9_volume_button_background_1{
+#smiley_1 {
+    width: 130%;
     grid-area: 1/2/1/2;
-    margin-top: 870px;
+    margin-top: 930px;
+    margin-left: -350px;
+    transform: rotate(-20deg);
+}
+
+#smiley_2 {
+    width: 180%;
+    grid-area: 1/2/1/2;
+    margin-left: 300px;
+    transform: rotate(10deg);
+}
+
+#smiley_3 {
+    width: 100%;
+    grid-area: 1/2/1/2;
+    margin-top: 360px;
+    margin-left: 790px;
+    transform: rotate(40deg);
+    z-index: 4;
+}
+
+#page_9_volume_button_background_1 {
+    grid-area: 1/2/1/2;
+    margin-top: 910px;
     margin-left: -50px;
 }
 
-#page_9_volume_button_1{
+#page_9_volume_button_1 {
     grid-area: 1/2/1/2;
-    margin-top: 880px;
+    margin-top: 920px;
     margin-left: -40px;
 
 }
 
-#wade_main{
+#wade_main {
     grid-area: 1/1/1/1;
     margin-left: 25px;
     margin-top: 200px;
 }
 
-#wade_text{
+#wade_text {
     grid-area: 1/2/1/2;
     margin-left: 270px;
     margin-top: 100px;
 }
 
-#zap_1{
+#zap_1 {
     z-index: 5;
     grid-area: 1/2/1/2;
     width: 140%;
@@ -997,7 +1020,7 @@ body {
     transform: rotate(20deg);
 }
 
-#zap_2{
+#zap_2 {
     z-index: 5;
     grid-area: 1/2/1/2;
     width: 140%;
@@ -1006,7 +1029,7 @@ body {
     transform: rotate(83deg);
 }
 
-#zap_3{
+#zap_3 {
     z-index: 5;
     grid-area: 1/2/1/2;
     width: 140%;
@@ -1015,40 +1038,60 @@ body {
     transform: rotate(100deg);
 }
 
-#page_10_volume_button_background_1{
+#page_10_volume_button_background_1 {
     grid-area: 1/2/1/2;
     margin-left: 550px;
     margin-top: 900px;
 }
 
-#page_10_volume_button_1{
+#page_10_volume_button_1 {
     grid-area: 1/2/1/2;
     margin-left: 558px;
     margin-top: 910px;
 }
 
-#pam_main{
+#pam_main {
     grid-area: 1/2/1/2;
     margin-left: 400px;
     margin-top: 200px;
     padding-bottom: 50px;
 }
 
-#pam_text{
+#pam_text {
     grid-area: 1/1/1/1;
     margin-left: 95px;
     margin-top: 290px;
     padding-bottom: 60px;
 }
 
+#sparkle_1 {
+    width: 50%;
+    grid-area: 1/1/1/1;
+    margin-left: 720px;
+}
 
-#page_11_volume_button_background_1{
+#sparkle_2 {
+    width: 50%;
+    grid-area: 1/1/1/1;
+    margin-left: 950px;
+    margin-top: 10px;
+}
+
+#sparkle_3 {
+    width: 40%;
+    grid-area: 1/1/1/1;
+    margin-left: 1180px;
+    transform: rotate(20deg);
+    margin-top: -20px;
+}
+
+#page_11_volume_button_background_1 {
     grid-area: 1/2/1/2;
     margin-top: 930px;
     margin-left: -50px;
 }
 
-#page_11_volume_button_1{
+#page_11_volume_button_1 {
     grid-area: 1/2/1/2;
     margin-top: 940;
     margin-left: -40px;
